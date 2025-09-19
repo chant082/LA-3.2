@@ -6,7 +6,7 @@ all: test
 clean:
 	rm test
 
-test: test.cpp
+test: test.cpp functions_to_implement.cpp
 	$(CXX) $(CXXFLAGS) test.cpp -o test
 
 
